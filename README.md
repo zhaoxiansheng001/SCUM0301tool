@@ -7,7 +7,7 @@
 ![portable](https://img.shields.io/badge/portable-75%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
 
-> **官网（功能介绍 + 直接下载）**：https://0301tool.app.workbuddy.host/
+> **官网（功能介绍 + 直接下载）**：https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 ---
 
@@ -81,7 +81,7 @@
 ## 下载安装
 
 **方式一（推荐）**：打开官网点「下载安装包」
-https://0301tool.app.workbuddy.host/
+https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 直接下载
 [`0301PVE-Tool-1.5.1.22-portable.exe`](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest/download/0301PVE-Tool-1.5.1.22-portable.exe)（约 75 MB）
@@ -133,7 +133,7 @@ https://0301tool.app.workbuddy.host/
 ## 联系作者
 
 - QQ：**1264576356**（问题反馈 / 领试用卡）
-- 官网：https://0301tool.app.workbuddy.host
+- 官网：https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 ---
 

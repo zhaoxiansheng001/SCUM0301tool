@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhaoxiansheng001.github.io/SCUM0301tool/sitemap.xml

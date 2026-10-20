@@ -2,7 +2,7 @@
 
 **改配置不出事** —— 20 个页面，管完整台 SCUM 专用服务器。
 
-![version](https://img.shields.io/badge/version-1.5.1.24-b9d36a?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.1.25-b9d36a?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
 ![portable](https://img.shields.io/badge/portable-75%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
@@ -79,14 +79,21 @@
 | 备份与监控 | 一键快照、逐文件差异、整体或单文件回滚；进程面板、注入状态、在线玩家、日志尾部实时看 |
 | 魔改工作台 | 把整套改法串成流水线，逐项返回结果，一项失败不会把后面的搅乱 |
 
+## 程序加固
+
+- **改动即失效**：安装包内置 asar 完整性校验，程序主体被改动任何字节都会直接拒绝启动（实测翻转 1 bit 即终止，窗口都不会出现）。
+- **字节码分发**：主进程 36 个模块编译为 V8 字节码，安装包里没有可直接阅读的主进程源码。
+- **资产加密**：物品库（2856 条）与商人价格目录以 AES-256-GCM 加密存储，不是可以双击导出的明文 JSON。
+- **授权验证在主进程**：改配置、刷物品、下发指令、备份还原等 38 个写入通道统一在主进程校验，改界面遮罩绕不过去。
+
 ## 下载安装
 
 **方式一（推荐）**：打开官网点「下载安装包」
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 下载
-- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.24.exe`（约 72 MB）
-- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.24/0301PVE-1.5.1.24.exe>
+- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.25.exe`（约 72 MB）
+- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.25/0301PVE-1.5.1.25.exe>
 
 > 附件名可能随版本变化；如果加速通道也失效，用上面第一条的 Releases 页面。
 

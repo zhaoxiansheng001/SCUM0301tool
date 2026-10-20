@@ -83,8 +83,10 @@
 **方式一（推荐）**：打开官网点「下载安装包」
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
-**方式二**：仓库内直接下载
-[`download/0301PVE-Tool-1.5.1.22-portable.exe`](download/0301PVE-Tool-1.5.1.22-portable.exe)（约 75 MB）
+**方式二**：GitHub Releases 直接下载
+[`0301PVE-Tool-1.5.1.22-portable.exe`](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest/download/0301PVE-Tool-1.5.1.22-portable.exe)（约 75 MB）
+
+> 也可以到 [Releases](https://github.com/zhaoxiansheng001/SCUM0301tool/releases) 页面查看历史版本。
 
 安装包未做代码签名，Windows 首次运行可能提示「已保护你的电脑」——点「更多信息 → 仍要运行」即可。免安装，不写注册表，删掉文件就是卸载。
 

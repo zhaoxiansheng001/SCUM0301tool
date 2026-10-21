@@ -2,7 +2,7 @@
 
 **改配置不出事** —— 20 个页面，管完整台 SCUM 专用服务器。
 
-![version](https://img.shields.io/badge/version-1.5.1.26-b9d36a?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.1.27-b9d36a?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
 ![portable](https://img.shields.io/badge/portable-75%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
@@ -81,9 +81,9 @@
 
 ## 近期更新
 
-**V1.5.1.26** 修复玩家列表最多只显示 17 人的问题 —— 原因是 SCUM 游戏聊天框最多复制 ~17 行，
-#ListPlayers 名单被游戏截断。现在「读取存档资产」直接解析全部注册玩家（人数不限），
-在线状态改由存档登录 / 登出时间判定，不再依赖被截断的名单。
+**V1.5.1.27** 稳定性与性能优化 —— 修复监控页离开后定时器仍在后台空转的问题（视图切换即停）；
+日志刷新改为只拉文件尾部 256KB，日志没更新时零网络流量；20 个视图改为按需加载，冷启动更快；
+物品库搜索加 150ms 防抖，连续输入不卡。配置读写、备份回滚链路与 1.5.1.26 完全一致，直接覆盖升级即可。
 
 ## 程序加固
 
@@ -98,8 +98,8 @@
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 下载
-- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.26.exe`（约 72 MB）
-- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.26/0301PVE-1.5.1.26.exe>
+- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.27.exe`（约 66 MB）
+- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.27/0301PVE-1.5.1.27.exe>
 
 > 附件名可能随版本变化；如果加速通道也失效，用上面第一条的 Releases 页面。
 

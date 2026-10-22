@@ -2,7 +2,7 @@
 
 **改配置不出事** —— 20 个页面，管完整台 SCUM 专用服务器。
 
-![version](https://img.shields.io/badge/version-1.5.1.27-b9d36a?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.1.28-b9d36a?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
 ![portable](https://img.shields.io/badge/portable-66%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
@@ -81,6 +81,8 @@
 
 ## 近期更新
 
+**V1.5.1.28** 文件操作系统优化 —— 大文件删除大幅提速：超过 50MB 的文件不再整份下载做快照、直接删除；SFTP 连接掉线后自动重连重试，彻底告别「无法读取目录」报错；文件浏览器新增多选 / 全选 / 批量删除，可一次勾选多个文件批量删除，不再逐个点。配置读写、备份回滚链路与 1.5.1.27 完全一致，直接覆盖升级即可。
+
 **V1.5.1.27** 稳定性与性能优化 —— 修复监控页离开后定时器仍在后台空转的问题（视图切换即停）；
 日志刷新改为只拉文件尾部 256KB，日志没更新时零网络流量；20 个视图改为按需加载，冷启动更快；
 物品库搜索加 150ms 防抖，连续输入不卡。配置读写、备份回滚链路与 1.5.1.26 完全一致，直接覆盖升级即可。
@@ -98,8 +100,8 @@
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 下载
-- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.27.exe`（约 66 MB）
-- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.27/0301PVE-1.5.1.27.exe>
+- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.28.exe`（约 66 MB）
+- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.28/0301PVE-1.5.1.28.exe>
 
 > 附件名可能随版本变化；如果加速通道也失效，用上面第一条的 Releases 页面。
 

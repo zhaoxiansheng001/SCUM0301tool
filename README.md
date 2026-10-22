@@ -4,7 +4,7 @@
 
 ![version](https://img.shields.io/badge/version-1.5.1.27-b9d36a?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
-![portable](https://img.shields.io/badge/portable-75%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
+![portable](https://img.shields.io/badge/portable-66%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
 
 > **在线介绍页（推荐，可直接打开）**：https://zhaoxiansheng001.github.io/SCUM0301tool/

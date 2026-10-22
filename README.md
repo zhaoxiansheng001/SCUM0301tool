@@ -7,8 +7,7 @@
 ![portable](https://img.shields.io/badge/portable-66%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
 
-> **在线介绍页（推荐，可直接打开）**：https://zhaoxiansheng001.github.io/SCUM0301tool/
-> **官网（下载安装包）**：https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
+> **官网（下载安装包）**：https://zhaoxiansheng001.github.io/SCUM0301tool/
 
 ---
 

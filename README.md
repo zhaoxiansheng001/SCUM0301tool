@@ -2,7 +2,7 @@
 
 **改配置不出事** —— 20 个页面，管完整台 SCUM 专用服务器。
 
-![version](https://img.shields.io/badge/version-1.5.1.29-b9d36a?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.1.30-b9d36a?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
 ![portable](https://img.shields.io/badge/portable-66%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
@@ -80,6 +80,8 @@
 
 ## 近期更新
 
+**V1.5.1.30** 商品条目「同步到其它商人」 —— 经济系统 → 商店商品里勾选商品后点「同步到其它商人」，买价 / 卖价 / 可购买 / 声望门槛会一次性复制到目标商人；最常用的是同步到**其它地区的同类商人**（在 A_0_Armory 改完价，一键同步给 B_4 / C_2 / Z_3_Armory），弹窗里同类商人的其它地区已默认预选，也支持手动勾任意商人。目标不必已经存在于配置中（应用时自动创建商品列表）；目标已是相同数值的行会跳过，源条目「待下架」时目标同步下架。改动先进本地草稿，可逐个核对后再统一「预览并应用」。同期修复玩家管理弹窗按钮不等宽/不等高与底部横向滚动条问题。
+
 **V1.5.1.29** 玩家管理弹窗重设计 —— 16 个操作按钮重新编排：现金 / 金条 / 声望各成一张资产卡，「调整」「设定」直接贴在对应数值旁；大额资产紧凑显示（123.5万 / 1.23亿，悬浮看完整数字）；传送、假名、发言、处置四组按钮装进分组面板并排一行，按钮整体放大更好点。配置读写、备份回滚链路与 1.5.1.28 完全一致，直接覆盖升级即可。
 
 **V1.5.1.28** 文件操作系统优化 —— 大文件删除大幅提速：超过 50MB 的文件不再整份下载做快照、直接删除；SFTP 连接掉线后自动重连重试，彻底告别「无法读取目录」报错；文件浏览器新增多选 / 全选 / 批量删除，可一次勾选多个文件批量删除，不再逐个点。配置读写、备份回滚链路与 1.5.1.27 完全一致，直接覆盖升级即可。
@@ -101,8 +103,8 @@
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 下载
-- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.29.exe`（约 66 MB）
-- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.29/0301PVE-1.5.1.29.exe>
+- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.30.exe`（约 66 MB）
+- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.30/0301PVE-1.5.1.30.exe>
 
 > 附件名可能随版本变化；如果加速通道也失效，用上面第一条的 Releases 页面。
 

@@ -2,7 +2,7 @@
 
 **改配置不出事** —— 20 个页面，管完整台 SCUM 专用服务器。
 
-![version](https://img.shields.io/badge/version-1.5.1.32-b9d36a?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.1.43-8957e5?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a7ebb?style=flat-square)
 ![portable](https://img.shields.io/badge/portable-66%20MB%20%E5%85%8D%E5%AE%89%E8%A3%85-f0c463?style=flat-square)
 ![pages](https://img.shields.io/badge/views-20%20%E9%A1%B5-6aa84f?style=flat-square)
@@ -80,6 +80,8 @@
 
 ## 近期更新
 
+**V1.5.1.43** 悬浮挂件重做（参照 SCUM Admin Helper） —— ①顶栏原来的「窗口 / 悬浮面板 / 悬浮球 / 置顶」四按钮，精简成**一个「◫ 悬浮挂件」按钮**（或 `Ctrl+Alt+Space` 呼出）；主窗口默认**常驻置顶**，不再有易出问题的「置顶」开关。②挂件是一块**独立覆盖层**：标题栏拖拽移动、松手自动吸附屏幕边；`⌃` 折叠成标题条、`⚙` 设置、`⤢` 把主窗口叫到前面、`✕` 只隐藏挂件（主窗口照常在，不再出现「主窗口被藏起来、只剩一颗球」的情况）。③挂件内直接**刷物品 / 发礼包 / 切天气 / 改时间 / 跑半径清理**：物品库中文名秒搜、数量 ×1~9999；目标玩家 SteamID 可填可粘贴。④`⚙` 设置可改不透明度、面板尺寸（紧凑 / 标准 / 宽松）、边缘吸附、全局热键，并按点击顺序增删面板动作、自定义 `Ctrl+Alt+1~9` 快捷；默认 12 个动作（不朽 / 无限弹药 / 名称标签 / 刷物品 / 发礼包 / 地图传送 / 玩家与运营 / 清尸体 / 上帝模式 / 天气 / 时间 / 礼包中心 / 黑夜增亮）。⑤新增「黑夜增亮」动作（🌙 一键 `#NightBrightness 1`）。⑥去掉「以管理员重启」入口；保留提权诊断——SCUM 以管理员运行而本工具不是时，设置页 / 监控页明确告警，需右键「以管理员身份运行」本工具。配置读写、备份回滚链路与 1.5.1.32 一致，直接覆盖升级即可。
+
 **V1.5.1.32** 侧边栏顺序调整 + 半径维护新增「删除载具」 —— ①「管理中心」里**物品管理**与**快捷操作**互换位置，常用顺序更顺手（现为 物品管理 → 快捷操作 → 礼包中心 → 地图工具）；②快捷操作 → **半径维护**页顶部新增「**删除载具（按载具 ID）**」：填载具 ID 后点「删除载具（二次确认）」即执行 `#DestroyVehicle <载具ID>`，不受半径影响、不需要以自己为圆心；配套「显示载具信息（查 ID）」一键注入 `#ShowVehicleInfo` 用来查 ID，以及「复制命令」把命令复制到剪贴板；卡片自带独立命令预览区。配置读写、备份回滚链路与 1.5.1.31 一致，直接覆盖升级即可。
 
 **V1.5.1.31** 商品条目「全选当前页」 —— 「全选（当前筛选）」改为「**全选当前页**」，只勾选当前实际显示的条目（表格一次最多渲染 600 条），不再把整个筛选结果全部勾上，避免一次选中几百上千条后误操作；筛选结果多于当前页时会提示超出多少条未选中，可缩小范围后再点一次累加选择；同时取消了原来超过 600 条时的数量拦截（不再报错拦人）。
@@ -107,8 +109,8 @@
 https://0301tool.app.workbuddy.host/?sharecode=ETWJKA4EAL
 
 **方式二**：GitHub Releases 下载
-- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.32.exe`（约 66 MB）
-- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.32/0301PVE-1.5.1.32.exe>
+- 直连（海外 / 能正常访问 GitHub）：[Releases 页面](https://github.com/zhaoxiansheng001/SCUM0301tool/releases/latest)，附件 `0301PVE-1.5.1.43.exe`（约 66 MB）
+- 国内加速通道：<https://ghfast.top/https://github.com/zhaoxiansheng001/SCUM0301tool/releases/download/v1.5.1.43/0301PVE-1.5.1.43.exe>
 
 > 附件名可能随版本变化；如果加速通道也失效，用上面第一条的 Releases 页面。
 
